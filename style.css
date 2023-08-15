@@ -503,6 +503,19 @@ body.dark .home .text{
     margin: -1px 0 5px 0;
     border: 1px solid #333;
     border-radius: 4px;
+    color: #777;
+}
+
+.projects {
+    display: block;
+    line-height: 30px;
+    color: #777;
+}
+
+.projects:hover { 
+    color: #3a3b3c;
+    text-decoration: none;
+    padding: 1px;
 }
 
 .extra {
