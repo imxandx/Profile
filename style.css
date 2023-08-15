@@ -683,6 +683,21 @@ body.dark .home .text{
 
 
 @media (max-width: 768px) {
+
+    .navigation {
+        width: 60%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list {
+        margin: auto;
+        margin-left: 10%;
+    }
+
     .indicator {
         display: none;
     }
@@ -690,6 +705,32 @@ body.dark .home .text{
     .extra {
         height: 700px;
         width: 600px;
+    }
+
+    .extra {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        width: 470px;
+    }
+
+    .box {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .rodape {
+        padding: 11px;
+    }
+
+    .myname {
+        margin-left: 7%;
+        padding: 14px;
     }
 }
 
