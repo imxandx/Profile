@@ -588,8 +588,12 @@ body.dark .home .text{
 .fim {
     width: 120px;
     height: 120px;
+    transition: all 1s;
 }
 
+.fim:hover {
+    transform: scale(1.1);
+}
 
 .final {
     width: 50%;
@@ -603,6 +607,11 @@ body.dark .home .text{
 .myname {
     font-size: 18px;
     color: #E4E9F7;
+    transition: all 1s;
+}
+
+.myname:hover {
+    transform: scale(1.1);
 }
 
 /* RESPONSIVIDADE */
